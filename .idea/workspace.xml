@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2993f163-eb7b-42b6-bc60-9eb8f836bf4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deck/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deck.go" beforeDir="false" afterPath="$PROJECT_DIR$/deck/deck.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deck_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/deck/deck_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_cards" beforeDir="false" afterPath="$PROJECT_DIR$/deck/my_cards" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/structs/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/structs/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="367">
+              <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -77,6 +70,11 @@
             <path>
               <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="deck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
               <item name="structs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -113,8 +111,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.go deck/test ">
-    <configuration name="go build structs/main.go" type="GoApplicationRunConfiguration" factoryName="Go Application">
+  <component name="RunManager" selected="Go Build.go build structs/main.go">
+    <configuration name="go build structs/main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
@@ -150,11 +148,13 @@
       <item itemvalue="Go Build.go run deck/main.go deck/deck.go" />
       <item itemvalue="Go Test.go deck/test " />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build structs/main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_deck_test_go - 2019.06.04 at 11h 52m 02s.xml">
-      <configuration name="go test deck_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="go_test_deck_test_go - 2019.06.04 at 11h 52m 42s.xml">
       <configuration name="go test deck_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -181,6 +181,9 @@
     </history-entry>
     <history-entry file="go_test_ - 2019.06.04 at 12h 57m 49s.xml">
       <configuration name="go test " configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_deck_test_ - 2019.06.04 at 13h 04m 31s.xml">
+      <configuration name="go deck/test " configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -258,10 +261,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/go/src/fmt/stringer_example_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/go/src/fmt/example_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/go/src/fmt/doc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4713" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/structs/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="367">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
         </state>
       </provider>
     </entry>
