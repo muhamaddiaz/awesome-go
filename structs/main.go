@@ -49,17 +49,19 @@ func main() {
 
 	people = append(people, anton2)
 
+	people[0].changeName("Marcos")
+
 	people.printAll()
 
 	//// Structs with shortcut pointer
-	//diaz.changeName("Helloworld")
+	// diaz.changeName("Helloworld")
 	//
 	//// Structs with no shortcut pointer
 	//// & is a operation to convert from value to memory address
-	//diazPointer := &diaz
-	//diazPointer.changeName("Stepen")
+	// diazPointer := &diaz
+	// diazPointer.changeName("Stepen")
 	//
-	//diaz.print()
+	// diaz.print()
 }
 
 // * is a operation to convert from memory to value in that address
